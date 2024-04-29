@@ -1,0 +1,430 @@
+Body {
+    background-color: #FFE0D3;
+    margin: 0px;
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: montserrat;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FFD1BC; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFB289;
+    border-radius: 10px;
+}
+
+.container1 {
+    background-color: #FFD1BC;
+    background-size: contain;
+    /* width: 100%; */
+}
+
+.box1 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+header {
+    color: #FF6700;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    /* width: 100%; */
+}
+
+.left-section {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.middle-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    max-width: 900px;
+}
+
+.search-bar {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: black;
+}
+
+.search-bar button img {
+    width: 25px; 
+}    
+
+.search-bar button {
+   border: 0;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background: rgba(255, 255, 255, 0.5);
+   cursor: pointer; 
+}
+
+.right-section {
+    width: 200px;
+    text-align: center;
+}
+
+.right-section .btnLogin-popup {
+    margin-right: 40px;
+    width: 150px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 550;
+    font-family: montserrat;
+    color: black;
+    transition: 0.3s;
+}
+
+.right-section .btnLogin-popup:hover {
+    background: #FFB289;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+}
+
+h1 {
+    font-family: Adelia;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar li {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-family: Montserrat;
+    padding: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    flex: 1;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #FFB289;
+    border-radius: 35px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.container2 .button {
+    border: 5px solid #FFB289;
+    border-radius: 45px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    min-width: 120px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.container2 .button:hover {
+    background-color: #FFD1BC;
+}
+
+.left {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+    width: 570px;
+}
+
+
+.content1 {
+    display: none;
+    position: absolute;
+    background-color: #FFD1BC;
+    min-width: 120px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ff660054;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.content1 a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content1 a:hover {
+    background-color: #FFB289;
+    border-radius: 10px;
+}
+
+.content2 {
+    display: none;
+    position: absolute;
+    background-color: #FFD1BC;
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #ff660e54;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.content2 a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content2 a:hover {
+    background-color: #FFB289;
+    border-radius: 10px;
+}
+
+.show {
+    display: block;
+}
+
+.contentbox {
+    display: flex;
+    align-items: top;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: 500;
+    width: 550px;
+}
+
+.column1 {
+    border-right: solid #FFB289;
+    text-align: left;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.column2 {
+    border-right: solid #FFB289;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.column3 {
+    text-align: left;
+    width: 300px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 15px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.container3 {
+    display: flex;
+    align-items: top center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.left-column {
+    width: 500px;
+}
+
+.rain {
+    width: 500px;
+    height: 300px;
+    border: solid 5px #FFB289;
+    border-radius: 10px;
+}
+
+.mid-column {
+    width: 500px;
+}
+
+.trend {
+    width: 500px;
+    height: 300px;
+    border: solid 5px #FFB289;
+    border-radius: 10px;
+}
+
+.right-column {
+    width: 500px;
+}
+
+.flowers {
+    width: 500px;
+    height: 300px;
+    border: solid 5px #FFB289;
+    border-radius: 10px;
+}
+
+.container3 p {
+    font-size: 20px;
+}
+
+.container3 p1 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: montserrat;
+}
+
+h6 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.container4 {
+    display: flex;
+    align-items: top center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+}
+
+.diseases {
+    width: 350px;
+    height: 500px;
+    border: solid 5px #FFB289;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.flower {
+    width: 350px;
+    height: 500px;
+    border: solid 5px #FFB289;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.bedgarden {
+    width: 350px;
+    height: 500px;
+    border: solid 5px #FFB289;
+    border-radius: 10px;
+    margin-left: 70px;
+}
+
+.left-column1 {
+    width: 500px;
+}
+
+.mid-column1 {
+    width: 550px;
+}
+
+.right-column1 {
+    width: 500px;
+}
+
+.container4 p2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: montserrat;
+}
